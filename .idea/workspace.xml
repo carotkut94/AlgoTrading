@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc2ce4ac-0af2-4984-9355-5caea8dd07c0" name="Default" comment="pickle file contained synchronized ticker data for every company" />
+    <list default="true" id="cc2ce4ac-0af2-4984-9355-5caea8dd07c0" name="Default" comment="pickle file contained synchronized ticker data for every company">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/second-stage4.py" afterPath="$PROJECT_DIR$/second-stage4.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="second-stage4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="second-stage4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second-stage4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
               <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding>
                 <element signature="e#20#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="third-stage1-machine-learning.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/third-stage1-machine-learning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="e#43#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +62,7 @@
         <option value="$PROJECT_DIR$/second-stage2.py" />
         <option value="$PROJECT_DIR$/second-stage3.py" />
         <option value="$PROJECT_DIR$/second-stage4.py" />
+        <option value="$PROJECT_DIR$/third-stage1-machine-learning.py" />
       </list>
     </option>
   </component>
@@ -115,25 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.second-stage4">
-    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python for Finance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.third-stage1-machine-learning">
     <configuration name="second-stage2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,20 +201,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="third-stage1-machine-learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python for Finance" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third-stage1-machine-learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.first" />
-      <item index="1" class="java.lang.String" itemvalue="Python.second" />
-      <item index="2" class="java.lang.String" itemvalue="Python.second-stage2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.second-stage3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.second-stage4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.second" />
+      <item index="1" class="java.lang.String" itemvalue="Python.second-stage2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.second-stage3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.second-stage4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.third-stage1-machine-learning" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.second-stage4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.second-stage3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.second-stage2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.second" />
-        <item index="4" class="java.lang.String" itemvalue="Python.first" />
+        <item index="0" class="java.lang.String" itemvalue="Python.third-stage1-machine-learning" />
+        <item index="1" class="java.lang.String" itemvalue="Python.second-stage4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.second-stage3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.second-stage2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.second" />
       </list>
     </recent_temporary>
   </component>
@@ -267,10 +281,10 @@
     <frame x="0" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22150883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34991974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56208056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40771812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -301,7 +315,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="pickle file contained synchronized ticker data for every company" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -462,6 +478,16 @@
           <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="e#20#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third-stage1-machine-learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
