@@ -32,14 +32,21 @@ def get_data_from_yahoo(reload_sp500=False):
             tickers = pickle.load(f)
 
     if not os.path.exists('stock_dfs'):
-        os.makedirs('stock_dfc')
+        os.makedirs('stock_dfs')
 
     start = dt.datetime(2000, 1, 1)
     end = dt.datetime(2017, 11, 30)
 
     for ticker in tickers:
-        if not os.path.exists('stock_dfs/{}.csv'.format(ticker)):
-            df = web.DataReader(ticker, 'yahoo', start, end)
-            df.to_csv('stock_dfs/{}.csv'.format(ticker))
-        else:
-            print('Already have the file for {}'.format(ticker))
+        print(ticker)
+        try:
+            if not os.path.exists('stock_dfs/{}.csv'.format(ticker)):
+                df = web.DataReader(ticker, 'yahoo', start, end)
+                df.to_csv('stock_dfs/{}.csv'.format(ticker))
+            else:
+                print('Already have the file for {}'.format(ticker))
+        except Exception:
+            pass
+
+
+get_data_from_yahoo(False)
